@@ -1,0 +1,85 @@
+nav {
+    padding: 0px 15px !important;
+}
+
+#navlogo {
+    width: 16%;
+    margin-left: 11.8%;
+}
+
+
+.form-inline {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-end !important;
+    width: 225px;
+    margin-right: 10px !important;
+}
+
+.btn {
+    background-color: #FA2E56 !important;
+    border-radius: 25px !important;
+    padding: 5px 17px !important;
+    color: white !important;
+}
+
+#cartBtn {
+    padding: 22px 17px !important;
+}
+
+#cartBtn img {
+    width: 90% !important;
+}
+
+#loginBtn {
+    font-weight: 500 !important;
+    background-color: white !important;
+    color: black !important;
+}
+
+#signupBtn {
+    padding: 0px;
+}
+
+.form-control {
+    background-color: white !important;
+    padding: 8px 0px 8px 20px !important;
+    border: 1px solid white !important;
+    border-radius: 25px !important;
+    width: 60% !important;
+    margin: auto;
+    margin-top: -20px;
+}
+
+input[type=search]:focus,
+.search-btn:focus,
+.btn:focus {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px #FA2E56 !important;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-btn {
+    border-radius: 1.5rem;
+    padding: 9px 20px;
+    position: absolute;
+    top: 0;
+    right: 20%;
+    height: 100%;
+}
+
+.search-area {
+    background-image: url('../../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: 104%;
+    height: 487px;
+    margin-left: -5%;
+    margin-top: 5px;
+    margin-bottom: 5%;
+}
+
+.search-bar {
+    padding-top: 10%;
+}

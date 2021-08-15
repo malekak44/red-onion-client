@@ -1,0 +1,59 @@
+.signup-area {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../images/signup.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left bottom;
+}
+
+.signup-area img {
+    display: block;
+    width: 17%;
+    margin: auto;
+    padding-top: 3%;
+}
+
+form {
+    width: 345px;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin: 17px auto;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    padding: 14px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 19px;
+}
+
+form input:focus {
+    border: 1px solid #FA2E56;
+    outline: none;
+}
+
+form input[type=submit] {
+    background-color: #FA2E56;
+    color: white;
+}
+
+.signup-area p {
+    color: #FA2E56;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.signup-area h6 {
+    text-align: center;
+    font-size: 17px;
+    color: #FA2E56;
+    font-weight: 400;
+}

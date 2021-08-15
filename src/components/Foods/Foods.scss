@@ -1,0 +1,43 @@
+.foods-area {
+
+    li {
+        margin-right: 20px;
+        font-weight: 500;
+
+        span {
+            color: black !important;
+            cursor: pointer;
+        }
+
+        .active {
+            color: #FA2E56 !important;
+        }
+
+        .active::after {
+            content: "";
+            width: 80%;
+            margin: 0 auto;
+            height: 2px;
+            background-color: rgb(255, 69, 101);
+            display: block;
+        }
+    }
+
+    .foods,
+    .loader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .checkoutBtn {
+        border: 1px solid transparent;
+        padding: 9px 35px;
+        margin: 50px auto 30px auto;
+        display: block;
+        border-radius: 5px;
+        color: white;
+        background-color: #D6D5D4;
+    }
+}
