@@ -7,12 +7,12 @@ import Foods from './components/Foods/Foods';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <Foods />
       <About />
       <Footer />
-    </div>
+    </>
   );
 };
 

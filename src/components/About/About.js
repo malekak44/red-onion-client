@@ -7,7 +7,7 @@ import arrow from '../../images/arrow.svg';
 
 const About = () => {
     return (
-        <div className="container about-area">
+        <section className="container about-area">
             <h2>Why you choose us</h2>
             <div className="col-md-6">
                 <p>Barton waited twenty always repair in within we do. An delighted offending curiosity my is dashwoods at. Boy prosperous increasing surrounded.</p>
@@ -53,7 +53,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

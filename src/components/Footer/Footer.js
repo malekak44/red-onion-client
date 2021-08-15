@@ -4,7 +4,7 @@ import footerlogo from '../../images/footerlogo.png';
 
 const Footer = () => {
     return (
-        <div className="container-fluid footer">
+        <footer className="container-fluid footer">
             <div className="row footer-items">
                 <div className="col-md-6">
                     <img src={footerlogo} alt="logo" />
@@ -36,7 +36,7 @@ const Footer = () => {
                     <p>Pricing</p>
                 </div>
             </div>
-        </div>
+        </footer>
     );
 };
 
