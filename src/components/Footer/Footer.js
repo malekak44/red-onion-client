@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="row footer-end">
-                <div className="col-md-6">
+                <div className="col-md-6 web-copy">
                     <p className="copy">Copyright &copy; 2021 Onlilne Food</p>
                 </div>
                 <div className="col-md-2">
@@ -34,6 +34,9 @@ const Footer = () => {
                 </div>
                 <div className="col-md-2">
                     <p>Pricing</p>
+                </div>
+                <div className="col-md-6 mobile-copy">
+                    <p className="copy">Copyright &copy; 2021 Onlilne Food</p>
                 </div>
             </div>
         </footer>

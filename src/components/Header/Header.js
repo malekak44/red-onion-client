@@ -22,7 +22,7 @@ const Header = () => {
                 </form>
             </nav>
             <div className="search-area">
-                <div className="search-bar col-md-6 mx-auto">
+                <div className="search-bar">
                     <h1 className="text-center">Best food waiting for your belly</h1>
                     <div className="search-box my-5">
                         <input type="search" className="form-control" autoComplete="off" placeholder="Search food items" />

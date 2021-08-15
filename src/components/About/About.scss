@@ -87,3 +87,21 @@
     margin-right: 0px;
     height: 505px;
 }
+
+@media only screen and (max-width:768px) {
+
+    .about-area h2,
+    .about-area .col-md-6 p {
+        text-align: center;
+    }
+
+    .content {
+        width: 80% !important;
+        margin: auto !important;
+        margin-bottom: 5% !important;
+    }
+
+    .content:nth-child(3) {
+        margin-bottom: 0 !important;
+    }
+}
